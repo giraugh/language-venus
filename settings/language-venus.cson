@@ -1,0 +1,5 @@
+'.source.venus':
+  'editor':
+    'commentStart': '-- '
+    'increaseIndentPattern': '((\\b(else|fn|repeat)\\b((?!\\b(until)\\b).)*)|(\\{\\s*))$'
+    'decreaseIndentPattern': '^\\s*((\\b(elseif|else|end|until)\\b)|(\\})|(\\)))'

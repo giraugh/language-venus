@@ -1,0 +1,13 @@
+{
+  "name": "language-venus",
+  "version": "0.0.1",
+  "private": false,
+  "author": "Retr0verse",
+  "description": "Add syntax highlighting and snippets to Venus files in Atom",
+  "repository": "https://github.com/retroverse/language-venus",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.50.0"
+  },
+  "dependencies": {}
+}
