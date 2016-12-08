@@ -1,6 +1,6 @@
 {
   "name": "language-venus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "author": "Retr0verse",
   "description": "Add syntax highlighting and snippets to Venus files in Atom",
