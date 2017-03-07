@@ -1,5 +1,12 @@
 '.source.venus':
   'editor':
-    'commentStart': '-- '
-    'increaseIndentPattern': '<|{'
-    'decreaseIndentPattern': '>|}'
+    'commentStart': '##'
+    'foldEndPattern': '^\\s*\\}|^\\s*\\]|^\\s*\\)'
+    'increaseIndentPattern': '(?x)
+        \\{ [^}"\']* $
+      | \\[ [^\\]"\']* $
+      | \\( [^)"\']* $
+      '
+    'decreaseIndentPattern': '(?x)
+        ^ \\s* (\\s* /[*] .* [*]/ \\s*)* [}\\])]
+      '
